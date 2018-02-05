@@ -37,7 +37,7 @@ def main():
         print("File , args[0], does not exist!")
 
     # batch number
-    i = 0
+    i = 1
     header = []
     geneIndex = {}
 
@@ -55,7 +55,7 @@ def main():
             date=F[0]
             for k in range(1,len(F)):
                 queryCount = str(F[k])
-                print str(i) + "\t" + date + "\t" + header[k] + "\t" + queryCount
+                print str(i) + "\t" + date + "\t" + header[k] + "\t" + queryCount + "\t" 
 
     inputF.close()
 
